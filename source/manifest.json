@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
-  "name": "Play/Pause Button For Google Play Music",
-  "short_name": "Play Button",
-  "description": "Simple button which allows to pause or resume current track.",
+  "name": "Play/Pause Button For Overcast",
+  "short_name": "Play/Pause Button Overcast",
+  "description": "Simple button which allows to pause or resume current episode.",
   "version": "1.2.1",
-  "author": "Artem Zanin",
+  "author": "Or Schiro",
   "icons": {
     "16": "images/Play.png",
     "48": "images/icon48.png",
@@ -31,7 +31,7 @@
     }
   ],
   "browser_action": {
-    "default_title": "Play",
+    "default_title": "Toggle Overcast episode playback",
     "default_icon": "images/Play.png"
   }
 }
